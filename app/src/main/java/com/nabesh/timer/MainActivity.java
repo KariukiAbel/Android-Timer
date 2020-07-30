@@ -29,11 +29,11 @@ int secs = 0;
         @Override
         public void onClick(View view) {
             hrs = findViewById(R.id.textView);
-            hrs.setText(hr);
+            hrs.setText(Integer.toString(hr));
             min = findViewById(R.id.textView2);
-            min.setText(mins);
+            min.setText(mins + "");
             sec = findViewById(R.id.textView3);
-            sec.setText(secs);
+            sec.setText(secs + "");
 
             while (true){
                 try {

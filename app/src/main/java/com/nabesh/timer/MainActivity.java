@@ -21,7 +21,7 @@ int secs = 0;
         setContentView(R.layout.activity_main);
 
         start = findViewById(R.id.button);
-        start.setText(R.string.strt);
+        start.setText("Start");
         start.setOnClickListener(startButtonListener);
     }
 
